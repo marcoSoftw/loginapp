@@ -10,8 +10,11 @@ import { LoginPageComponent } from './componentes/login-page/login-page.componen
 import { PrivadoPageComponent } from './componentes/privado-page/privado-page.component';
 import { NotFoundPageComponent } from './componentes/not-found-page/not-found-page.component';
 
+import {RouteModule} from './route/route.module';
+
 
 @NgModule({
+  
   declarations: [
     AppComponent,
     HomePageComponent,
@@ -22,6 +25,7 @@ import { NotFoundPageComponent } from './componentes/not-found-page/not-found-pa
     NotFoundPageComponent
   ],
   imports: [
+    RouteModule,
     BrowserModule
   ],
   providers: [],
