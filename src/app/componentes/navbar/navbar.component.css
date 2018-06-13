@@ -6,3 +6,7 @@
 #marca {
     font-size: 32px;
 }
+
+.navbar-nav{
+    margin-right: 10% !important;
+}
